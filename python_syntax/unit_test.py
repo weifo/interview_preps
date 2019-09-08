@@ -2,6 +2,11 @@ import unittest
 import calc
 
 class TestCalc(unittest.TestCase):
+    def setUp(self):
+        pass
+    def tearDown(self):
+        pass
+
     def test_add(self):
         result=calc.add(12,6)
         self.assertEqual(result,18)
