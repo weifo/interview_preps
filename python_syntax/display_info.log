@@ -1,0 +1,3 @@
+INFO:root:ran with args:('Weifo', 23) and  kwargs {}
+INFO:root:ran with args:Weifo and  kwargs 23
+INFO:root:ran with args:Weifo and  kwargs 23
