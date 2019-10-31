@@ -1,0 +1,21 @@
+P - 进程的集合
+
+Mp - 进程p的最大的请求数目
+
+Cp - 进程p当前被分配的资源
+
+A - 当前可用的资源
+
+while (P != ∅) {
+    found = FALSE;
+    foreach (p ∈ P) {
+        if (Mp − Cp ≤ A) {
+             /* p可以獲得他所需的資源。假設他得到資源後執行；執行終止，並釋放所擁有的資源。*/
+             A = A + Cp ;
+             P = P − {p};
+             found = TRUE;
+        }
+    }
+    if (! found) return FAIL;
+}
+return OK;

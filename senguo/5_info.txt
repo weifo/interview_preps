@@ -1,0 +1,11 @@
+  Max Lynch,Ionic的联合创始人之一，目前居住在Madison, Wisconsin
+毕业于University of Wisconsin-Madison,所学专业为计算机科学，目前是Ionic的CEO。
+  Max Lynch于2006年-2010年完成大学课程，在大学时曾参加NEST竞赛(NEST,即
+National Entrance Screening Test，是印度的一个科技比赛)，获得二等奖和$5000奖金。
+还是IEEE Robot Club 会员。
+  大学毕业后，他加入了PerBlue公司，担任技术lead，负责开发 Parallel Kingdom for Web(
+一个多人在线游戏，全球共有上百万玩家)。在2011年，他和童年好友创立了Drifty公司，主要的产品是
+Ionic框架，这是一个跨平台的移动端框架，目前Ionic是全球最受欢迎的移动开发框架。Max Lynch也被选为
+Forbes2015年度“30位30岁以下精英”中的科技企业家。Drifty公司总部位于Madison，是Wisconsin的首府
+所在城市
+  

@@ -1,0 +1,7 @@
+select storage from storage_record 
+where (product_id,create_at) in(
+    select product_id,max(create_at) from(
+        select * from storage_record
+        where create_at <'2018-11-11'
+    ) as t group by product_id
+)
