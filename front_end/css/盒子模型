@@ -1,0 +1,6 @@
+盒子模型分为ie盒子模型和w3c盒子模型
+ie的盒子模型包括：margin/外边距，padding/内边距，border/边框，content/内容，
+    盒子宽度=content+padding+border
+
+w3c盒子模型包括：margin/外边距，padding/内边距，border/边框，content/内容，
+    盒子宽度=content宽度

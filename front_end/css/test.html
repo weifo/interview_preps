@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    [type='datetime']{
+     border:3px solid gainsboro;
+     padding:3px;
+    }
+    [href^='http:']{
+        text-decoration: none;
+        color:blue;
+        font-size:2rem;
+
+    }
+    [type='button']{
+        outline:0;
+        border:2px solid floralwhite;
+        background-color:aquamarine;
+        padding:5px 15px;
+    }
+    p:empty{
+        background-color: #8af;
+        height:60px;
+        margin-bottom: 45px;
+    }
+    .top{
+        margin-top:50px;
+    }
+    .top :first-child{
+        width:50px;
+        height:50px;
+        display: inline-block;
+        background-color: #58f;
+    }
+    .top :nth-child(3){
+        padding:35px;
+        border-radius:3px;
+        border:5px solid goldenrod;
+    }
+    .top :last-child{
+        display: block;
+        height:45px;
+        background-color: #8fa;
+        text-align:center;
+        margin-top:80px;
+    }
+    .top :last-child::after{
+        content:'after';
+        font-size:2em;
+        position:absolute;
+        left:30%;
+        animation: bounce 3s ease-in  alternate-reverse infinite;
+    }
+    .top :last-child::before{
+        content:'before';
+        font-size:2em;
+        position:absolute;
+        right:30%;
+        animation: bounce 3s ease-in alternate-reverse infinite;
+    }
+    @keyframes bounce {
+        0%{
+            transform: translateY(0px);
+            opacity:1;
+        }
+        50%{
+            transform:translateY(120px);
+            opacity:0.5;
+        }
+        100%{
+            transform:translateY(-120pxpx);
+            opacity:1;
+        }
+        
+    }
+    </style>
+</head>
+<body>
+    <input type="text">
+    <input type="button" value='click'>
+    <input type="submit" value='click'>
+    <input type="color">
+    <input type="datetime">
+    <br>
+    <a href="http:/baidu.com">百度</a>&emsp;
+    <a href="https:/music.163.com">网易云音乐</a>&emsp;
+    <a href="https:/taobao.com">淘宝</a>
+    <p></p>
+
+    <p class="top">
+        <span></span>
+        <span>2</span>
+        <span>
+           
+            year &emsp; &emsp14; &emsp; &emsp; &emsp;
+            hahaahahhahahahahahahahahahahhahahahahaaahhahahhah
+        </span>
+        <span>4</span>
+        <span>5 &emsp;</span>
+        <span>6 &emsp;</span>
+    </p>
+    <script>
+    let forms=document.querySelectorAll('input')
+    let test_span=document.querySelectorAll('span')[5];
+    console.log(test_span)
+    test_span.addEventListener('click',(e)=>{
+        e.target.classList.toggle('active')
+    });
+    </script>
+</body>
+</html>

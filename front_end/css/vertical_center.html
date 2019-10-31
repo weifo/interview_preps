@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>垂直居中</title>
+    <style>
+    *{
+        margin:0;
+        padding:0
+    }
+    /* 方法一，使用dispaly定位 */
+    /* .father{
+        position: relative;
+        height:200px;
+    }
+    .child{
+        position:absolute;
+        width:80px;
+        height:80px;
+        background-color: #ff0;
+        top:0px;
+        bottom:0px;
+        left:0px;
+        right:0px;
+        margin:auto;
+    } */
+    /* 方法二：使用flex */
+    .father{
+        border:1px solid green;
+        height:200px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .child{
+        width:80px;
+        height:80px;
+        background-color: #3af;
+    }
+    /* 方法三：transform与disaplay aboslute */
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="child"></div>
+    </div>
+</body>
+</html>

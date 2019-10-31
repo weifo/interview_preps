@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>newtag</title>
+    <style>
+    *{
+        margin:0;
+        padding:0
+    }
+    nav{
+        overflow: hidden;
+        display:flex;
+        background-color: #999;
+        justify-content: space-evenly;
+    }
+    nav li{
+        list-style: none;
+        /* display:inline-block; */
+        height:40px;
+        width:240px;
+        cursor:pointer;
+        text-align: center;
+    }
+    li:hover{
+        background-color: #f8a;
+    }
+    section{
+        height:150px;
+        background-color: #2af;
+        font-size:4em;
+        text-align:center;
+        margin-bottom:15px;
+        vertical-align: middle;
+        line-height:150px;
+    }
+    footer{
+        width:100%;
+        position:fixed;
+        bottom:0;
+        text-align:center;
+        background-color: #fed;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </nav>
+    </header>
+    <main>
+        <section>section A</section>
+        <section>section B</section>
+        <section>section C</section>
+    </main>
+    <footer>
+        this is footer
+    </footer>
+</body>
+</html>

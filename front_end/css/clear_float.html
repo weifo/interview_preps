@@ -1,0 +1,22 @@
+<style>
+.father div{
+    width:120px;
+    border:2px solid lightblue;
+    float:left;
+    height:180px;
+}
+/* 方法一：加clear：both伪元素
+.father::after{
+    content:'';
+    display: block;
+    clear:both;
+} */
+.father{
+    overflow: hidden;
+}
+</style>
+<div class="father">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
