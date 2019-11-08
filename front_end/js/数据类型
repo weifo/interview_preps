@@ -1,0 +1,17 @@
+一 基础的数据类型：
+1.字符串
+2.数字
+3.布尔
+4.数组
+5.null
+6.undefined
+7.object
+
+二 什么是window对象？什么是document对象？
+window对象是指浏览器打开的窗口
+document对象是指被渲染后的html文档，是window对象的一个属性
+
+三 call和apply的区别？
+这两个方法接受的第一个参数都是一个对象，并把这个对象当作该方法的this
+apply接收数组作为第二个参数，而call接收任意的参数
+

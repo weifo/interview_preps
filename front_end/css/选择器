@@ -1,0 +1,7 @@
+css3有哪几种选择器？
+ *通用选择器、id选择器、类选择器、标签选择器、标签组合选择器、伪类选择器、+相邻选择器
+  > 子元素选择器、~ 兄弟选择器
+[type='button'] 属性选择器
+伪类选择器： ele:empty选择没有子元素（包括文本节点）的父级元素
+            ：first-child，：last-child，：nth-child(n),
+            ::before,::after通过css模拟出来的html标签

@@ -1,0 +1,11 @@
+Sass,three frontend frameworks,npm,webpack
+
+nodejs:async/await,generators,es6 support
+
+css:flexbox,css varibles,grid
+
+js:async/await,generators,map/filter/reduce,Object.freeze,fetch,guarding,modules,
+
+project:brower incompacity,keep animation at 60fps,avoid tech debt
+
+fix a slow website:reduce assets weight,lazy loading,reduce the number of  http calls

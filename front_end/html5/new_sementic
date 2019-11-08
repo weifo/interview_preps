@@ -1,0 +1,8 @@
+HTML5的新特性及语义化？
+1.新的文档类型（<!DOCTYPE html>)
+2.placeholder属性
+3.div 的contenteditableshuxing
+4.localstorage
+
+语义化标签？
+title、header、nav、main（一个页面只能使用一次）、article、section、aside、mark、cite（引用）

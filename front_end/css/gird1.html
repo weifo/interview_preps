@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>learn grid </title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 2fr 1fr;
+        grid-template-areas: 
+        "title title"
+        "header header"
+        "sidebar content"
+        "footer footer";
+        gap:10px;
+    }
+    .grid div{
+        text-align: center;
+        font-size:2em;
+        color:#fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding:40px 0px;
+        
+    }
+    .grid div:nth-child(even){
+        background-color:aqua;
+    }
+    .grid div:nth-child(odd){
+        background-color:saddlebrown;
+    }
+    .title{
+        grid-area: title;
+    }
+    .header{
+        grid-area:header;
+    }
+    .sidebar{
+        grid-area: sidebar;
+    }
+    .content{
+        grid-area: content;
+    }
+    .footer{
+        grid-area:footer;
+    }
+    @media screen and (max-width:736px){
+        .grid{
+            grid-template-columns:1fr;
+            grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+            grid-template-areas: 
+            "title"
+            "header"
+            "sidebar" 
+            "content"
+            "footer";
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="title">title</div>
+        <div class="header">header</div>
+        <div class="sidebar">sider</div>
+        <div class="content">contetn</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
