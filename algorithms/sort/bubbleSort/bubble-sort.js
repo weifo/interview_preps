@@ -1,3 +1,6 @@
+//时间复杂度 n^2
+//内存 1
+//稳定否？ 稳定
 function sort(arr){
     let l=arr.length;
     for(let i=0;i<l-1;i++){
